@@ -11,7 +11,7 @@ TYPE_LIST = "type_list"
 TYPE_DICT = "type_dict"
 TYPE_UNDEFINED = "type_undefined"
 
-logger = createlogger.createLogger(level='DEBUG', file='binance_future_api.log')
+logger = createlogger.createLogger(level='DEBUG')
 
 class TypeCheck:
     @staticmethod
