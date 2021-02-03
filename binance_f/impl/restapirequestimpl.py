@@ -15,7 +15,7 @@ class RestApiRequestImpl(object):
         self.__api_key = api_key
         self.__secret_key = secret_key
         self.__server_url = server_url
-        self.logger = createlogger.createLogger(level='DEBUG', file='binance_future_api.log')
+        self.logger = createlogger.createLogger(level='DEBUG')
 
     def __create_request_by_get(self, url, builder):
         request = RestApiRequest()
