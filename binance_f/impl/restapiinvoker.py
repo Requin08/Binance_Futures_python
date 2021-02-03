@@ -3,7 +3,7 @@ from binance_f.exception.binanceapiexception import BinanceApiException
 from binance_f.impl.utils import *
 # from binance_f.base.printobject import *
 from binance_f.base import createlogger
-logger = createlogger.createLogger(level='DEBUG', file='binance_future_api.log')
+logger = createlogger.createLogger(level='DEBUG')
 
 
 def check_response(json_wrapper):
